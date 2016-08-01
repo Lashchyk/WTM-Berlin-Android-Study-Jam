@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_homescreen_name">Public Holidays of Berlin 2016</string>
+    <string name="app_name">Berlin 2016</string>
+
+    <!-- Months -->
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="dezember">December</string>
+
+    <!-- Holidays -->
+    <!-- January -->
+    <string name="january_1">January 1st 2016</string>
+    <string name="new_year">New Year\'s Day</string>
+    <!-- March -->
+    <string name="march_25">March 25th 2016</string>
+    <string name="good_friday">Good Friday</string>
+    <string name="march_28">March 28th 2016</string>
+    <string name="easter_monday">Easter Monday</string>
+    <!-- May -->
+    <string name="may_1">May 01st 2016</string>
+    <string name="first_of_may">International Workers’ Day</string>
+    <string name="may_5">May 05th 2016</string>
+    <string name="father_day">Father\’s Day</string>
+    <string name="may_15">May 15th 2016</string>
+    <string name="pfingsten">“Whit Sunday” / Pfingsten</string>
+    <!-- October -->
+    <string name="october_3">October 03th 2016</string>
+    <string name="unit_day">German Unity Day</string>
+    <string name="october_31">October 31st 2016</string>
+    <string name="reformation_day">Reformation Day</string>
+    <!-- December -->
+    <string name="december_25">December 25th 2016</string>
+    <string name="christmas">Christmas Day</string>
+    <string name="december_26">December 26th 2016</string>
+    <string name="christmas_second_day">St Stephen\'s Day</string>
+
+    <!-- -->
+</resources>
