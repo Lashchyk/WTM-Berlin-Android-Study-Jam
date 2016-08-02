@@ -62,6 +62,7 @@
                 android:gravity="center_horizontal"
                 android:text="@string/new_year"
                 android:textStyle="bold" />
+
             <ImageView
                 android:id="@+id/calendar1stJanuary"
                 android:layout_width="30dp"
@@ -107,6 +108,7 @@
                 android:gravity="center_horizontal"
                 android:text="@string/good_friday"
                 android:textStyle="bold" />
+
             <ImageView
                 android:id="@+id/calendar25thOfMarch"
                 android:layout_width="30dp"
@@ -132,9 +134,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/easter_monday"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
         <!-- MAY -->
@@ -171,9 +179,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/first_of_may"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
         <LinearLayout
@@ -193,9 +207,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/father_day"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
         <LinearLayout
@@ -215,9 +235,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/pfingsten"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
         <!-- OCTOBER -->
@@ -254,9 +280,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/unit_day"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
         <LinearLayout
@@ -276,9 +308,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/reformation_day"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
         <!-- DECEMBER -->
@@ -315,9 +353,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/christmas"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
         <LinearLayout
@@ -337,9 +381,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="end"
+                android:gravity="center_horizontal"
                 android:text="@string/christmas_second_day"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/calendar"
+                android:scaleType="centerCrop" />
         </LinearLayout>
 
     </LinearLayout>
