@@ -43,11 +43,90 @@ public class MainActivity extends AppCompatActivity {
         calendar25thMarch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openCalendarOnDate("Good Friday", "25", "1");
+                openCalendarOnDate("Good Friday", "25", "2");
+            }
+        });
+
+        // Find the Calendar Button fo the 28th of March
+        ImageView calendar28thMarch = (ImageView) findViewById(R.id.calendar28thOfMarch);
+        assert calendar28thMarch != null;
+        calendar28thMarch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("Easter Monday", "28", "2");
+            }
+        });
+
+        // Find the Calendar Button fo the 01st of May
+        ImageView calendar01stMay = (ImageView) findViewById(R.id.calendar01stOfMay);
+        assert calendar01stMay != null;
+        calendar01stMay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("International Workers Day", "01", "4");
+            }
+        });
+
+        // Find the Calendar Button fo the 05th of May
+        ImageView calendar05thMay = (ImageView) findViewById(R.id.calendar05thOfMay);
+        assert calendar05thMay != null;
+        calendar05thMay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("Fathers Day", "05", "4");
+            }
+        });
+
+        // Find the Calendar Button fo the 15th of May
+        ImageView calendar15thMay = (ImageView) findViewById(R.id.calendar15thOfMay);
+        assert calendar15thMay != null;
+        calendar15thMay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("Whit Sunday", "15", "4");
+            }
+        });
+
+        // Find the Calendar Button fo the 03th of October
+        ImageView calendar03thOctober = (ImageView) findViewById(R.id.calendar03thOfOctober);
+        assert calendar03thOctober != null;
+        calendar03thOctober.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("German Unity Day", "03", "9");
+            }
+        });
+
+        // Find the Calendar Button fo the 31st of October
+        ImageView calendar31stOctober = (ImageView) findViewById(R.id.calendar31sthOfOctober);
+        assert calendar31stOctober != null;
+        calendar31stOctober.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("Reformation Day", "31", "9");
+            }
+        });
+
+        // Find the Calendar Button fo the 25th of December
+        ImageView calendar25thDecember = (ImageView) findViewById(R.id.calendar25thOfDecember);
+        assert calendar25thDecember != null;
+        calendar25thDecember.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("Christmas Day", "25", "11");
+            }
+        });
+
+        // Find the Calendar Button fo the 26th of December
+        ImageView calendar26thDecember = (ImageView) findViewById(R.id.calendar26thOfDecember);
+        assert calendar26thDecember != null;
+        calendar26thDecember.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCalendarOnDate("St Stephen's Day", "26", "11");
             }
         });
     }
-
 
     private void openCalendarOnDate(String title, String day, String month) {
         Calendar date = Calendar.getInstance();
@@ -69,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
-    //                Intent calendarIntent = new Intent(Intent.ACTION_MAIN);
+//                Intent calendarIntent = new Intent(Intent.ACTION_MAIN);
 //                calendarIntent.addCategory(Intent.CATEGORY_APP_CALENDAR);
 //                calendarIntent.putExtra("beginTime", )
 //

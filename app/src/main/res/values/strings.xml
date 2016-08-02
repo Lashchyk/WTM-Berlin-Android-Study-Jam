@@ -19,29 +19,29 @@
     <!-- Holidays -->
     <!-- January -->
     <string name="january_1">January 1st 2016</string>
-    <string name="new_year">New Year\'s Day</string>
+    <string name="new_year">New Year\'s Day\nSilvester</string>
     <!-- March -->
     <string name="march_25">March 25th 2016</string>
-    <string name="good_friday">Good Friday</string>
+    <string name="good_friday">Good Friday\nKarfreitag</string>
     <string name="march_28">March 28th 2016</string>
-    <string name="easter_monday">Easter Monday</string>
+    <string name="easter_monday">Easter Monday\nOstermontag</string>
     <!-- May -->
     <string name="may_1">May 01st 2016</string>
-    <string name="first_of_may">International Workers’ Day</string>
+    <string name="first_of_may">International Workers’ Day\nTag der Arbeit</string>
     <string name="may_5">May 05th 2016</string>
-    <string name="father_day">Father\’s Day</string>
+    <string name="father_day">Father\’s Day\nChristi Himmelfahrt</string>
     <string name="may_15">May 15th 2016</string>
-    <string name="pfingsten">“Whit Sunday” / Pfingsten</string>
+    <string name="pfingsten">“Whit Sunday”\nPfingsten</string>
     <!-- October -->
     <string name="october_3">October 03th 2016</string>
-    <string name="unit_day">German Unity Day</string>
+    <string name="unit_day">German Unity Day\nTag der Deutschen Einheit</string>
     <string name="october_31">October 31st 2016</string>
-    <string name="reformation_day">Reformation Day</string>
+    <string name="reformation_day">Reformation Day\nReformationstag</string>
     <!-- December -->
     <string name="december_25">December 25th 2016</string>
-    <string name="christmas">Christmas Day</string>
+    <string name="christmas">Christmas Day\nWeihnachten</string>
     <string name="december_26">December 26th 2016</string>
-    <string name="christmas_second_day">St Stephen\'s Day</string>
+    <string name="christmas_second_day">St Stephen\'s Day\nZweiter Weihnachtsfeiertag</string>
 
     <!-- -->
 </resources>
