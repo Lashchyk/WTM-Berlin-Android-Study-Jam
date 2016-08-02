@@ -25,6 +25,27 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle(R.string.app_homescreen_name);
         setSupportActionBar(toolbar);
 
+        // Open Calendar from Toolbar
+        ImageView calendar = (ImageView) findViewById(R.id.calendar);
+        assert calendar != null;
+        calendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent calendarIntent = new Intent(Intent.ACTION_MAIN);
+                calendarIntent.addCategory(Intent.CATEGORY_APP_CALENDAR);
+                startActivity(calendarIntent);
+            }
+        });
+
+        // Open Imprint from Toolbar
+//        ImageView about = (ImageView) findViewById(R.id.about);
+//        assert about !=null;
+//        about.setOnClickListener(new View.onClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//            }
+//        });
+
         // Find the Calendar Button fo the 1st of January
         ImageView calendar1stOfJanuary = (ImageView) findViewById(R.id.calendar1stJanuary);
         if (calendar1stOfJanuary != null) {
@@ -146,13 +167,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
-
-//                Intent calendarIntent = new Intent(Intent.ACTION_MAIN);
-//                calendarIntent.addCategory(Intent.CATEGORY_APP_CALENDAR);
-//                calendarIntent.putExtra("beginTime", )
-//
-//                startActivity(calendarIntent);
 
 
 
