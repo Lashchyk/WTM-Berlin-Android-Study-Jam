@@ -3,7 +3,6 @@ package com.example.nlashchy.holidays;
 import android.content.Intent;
 import android.provider.CalendarContract;
 import android.support.annotation.Nullable;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -12,7 +11,7 @@ import android.widget.ImageView;
 
 import java.util.Calendar;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
 
@@ -22,8 +21,9 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         // Add Toolbar Title
-        //toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.app_homescreen_name);
+        setSupportActionBar(toolbar);
 
         // Find the Calendar Button fo the 1st of January
         ImageView calendar1stOfJanuary = (ImageView) findViewById(R.id.calendar1stJanuary);
