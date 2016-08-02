@@ -87,7 +87,7 @@
                 android:id="@+id/calendar1stJanuary"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -133,7 +133,7 @@
                 android:id="@+id/calendar25thOfMarch"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -162,7 +162,7 @@
                 android:id="@+id/calendar28thOfMarch"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -208,7 +208,7 @@
                 android:id="@+id/calendar01stOfMay"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -237,7 +237,7 @@
                 android:id="@+id/calendar05thOfMay"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -266,7 +266,7 @@
                 android:id="@+id/calendar15thOfMay"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -312,7 +312,7 @@
                 android:id="@+id/calendar03thOfOctober"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -341,7 +341,7 @@
                 android:id="@+id/calendar31sthOfOctober"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -387,7 +387,7 @@
                 android:id="@+id/calendar25thOfDecember"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
@@ -416,7 +416,7 @@
                 android:id="@+id/calendar26thOfDecember"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/calendar"
+                android:src="@drawable/save"
                 android:scaleType="fitCenter" />
         </LinearLayout>
 
