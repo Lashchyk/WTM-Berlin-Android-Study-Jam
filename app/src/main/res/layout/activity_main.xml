@@ -228,7 +228,8 @@
             android:paddingTop="16dp"
             android:text="@string/october"
             android:textAllCaps="true"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            style="@style/MonthFont"/>
 
         <View
             android:layout_width="25dp"
@@ -288,7 +289,8 @@
             android:paddingTop="16dp"
             android:text="@string/dezember"
             android:textAllCaps="true"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            style="@style/MonthFont"/>
 
         <View
             android:layout_width="30dp"
